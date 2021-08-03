@@ -1,0 +1,197 @@
+body{
+    /* padding: 0; */
+    margin: 0;
+}
+#mb{
+    background:url('bgr.jpg');
+    background-size: cover;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    align-self: center;
+    color: black;
+    font-family: MonteCarlo;
+    font-size: 3em;
+    text-shadow: 1px 1px 1px black;
+}
+#welcome{
+    align-self: flex-end;
+    /* transform: translateX(-140px); */
+    transform:translateY(-52px);
+    font-size:1.6em;
+}
+#recipes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#mainblock{
+
+    width: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-between; */
+    /* background-color: rgba(255,255,255,0.5); */
+}
+.items{
+    /* margin: 10px 4px; */
+    width: 24%;
+    height: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.493);
+    /* background-color: coral; */
+    background-color: rgba(255,255,255,0.5);  
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;  
+    font-size: 1.3em;
+}
+.items:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0.2em 0.25em 0.25em rgba(81, 203, 238, 1);
+    transform:translateY(-0.25em);
+
+}
+#fbd{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(209, 209, 209, 0.4);
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+.feed{
+    height: 20px;
+    width: 300px;
+    margin: 0.5em;
+    /* border-radius:5px; */
+    /* outline:none; */
+    border: none;
+    border-bottom:1px solid black ;
+    background-color: rgba(255,255,255,0);
+}
+.feed:focus{
+    outline: none;
+    transition: box-shadow 0.5s;
+    box-shadow: 0 0 10px rgba(81, 203, 238, 1);
+    border-bottom: 0.5px solid rgba(81, 203, 238, 1);
+}
+#feedlink:visited{
+    text-decoration: none;
+}
+#feedlink:link{
+    text-decoration: none;
+}
+.bynames{
+    /* width: 10px; */
+    /* margin:4px ; */
+    /* align-self: flex-end; */
+    font-size: 0.5em;
+    margin-top: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.rbs{
+    /* background-color: rgba(red, green, blue, 0); */
+    background:none;
+    border: none;
+    font-size: 20px;
+    color: seashell;
+    font-family: 'Gowun Dodum';
+}
+.rbs:hover{
+    cursor:pointer;
+}
+#end{
+    margin-top: 20px;
+    height: 100px;
+    background-color: rgba(54, 54, 54, 0.664);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teg{
+    font-family: 'Gowun Dodum';    
+    color: seashell;
+    margin: 0 auto;
+    font-size: 20px;
+    /* color:black; */
+    text-decoration: none;
+}
+
+#dela{
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.609);
+}
+#delin{
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    background-image: url('bye.jpg');
+    background-size: cover;
+    background-color: whitesmoke;
+}
+.delbs{
+    color: white;
+    border: none;
+    background: none;
+    transform: translateY(40px);
+    margin: 0 25px;
+    /* background-color: none; */
+}
+.delbs:hover{
+    transition: 0.2s;
+    font-size: 1em;
+    cursor: pointer;
+}
+.innerborder{
+    text-align: center;
+}
+.innerborder:nth-of-type(2n){
+    border-left:1px solid white ;
+    text-align: center;
+}
+#rtable{
+    font-family: 'Gowun Dodum';
+    display: flex;
+    justify-content: center;
+}
+.mainborder:nth-of-type(n){
+    background-color: rgba(255, 255, 255, 0.185);
+    border: none;
+    margin: 4px 0px;
+    
+}
+.mainborder:nth-of-type(1){
+    background-color: rgba(0, 0, 0, 0.185);
+    border: none;
+    margin: 4px 0px;
+    
+}
+#welre{
+    margin:4px 0 30px 0;
+    font-family: 'MonteCarlo';
+    font-size: 2em;
+}
